@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ejercicio2.css">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <h1>Diseño de Interfaces Web</h1>
+
+    <div class="parent">
+        <div class="div1">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#contenido">Contenido</a></li>
+                    <li><a href="#imagenes">Imagenes</a></li>
+                    <li><a href="#historias">Historias</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="div2">
+            <header>
+                <h2>Modelo de cajas</h2>
+                <article>
+                    <p>Es una de las características más importantes en las hojas de estilos.
+                        Cuando se crea una página en HTML, el uso de cada etiqueta simula lo que podría considerarse una
+                        “caja”,
+                        dotando a cada una de ellas de un identificador, indicado por el nombre de la etiqueta.
+                        Este sistema, nos permite, desde el fichero CSS, seleccionar cada caja y dotarle del estilo
+                        deseado.</p>
+                    <p>El uso de las guías de estilo con CSS permite modificar todas las características de cada una de
+                        las cajas creadas.</p>
+                    <p>Las propiedades principales con las que trabaja el modelo de cajas son “height” y “width” que
+                        harán referencia a las dimensiones de la cada de contenido o content.
+                        En este caso, estamos hablando del alto y el ancho del área donde se muestra el contenido de la
+                        caja.</p>
+                    <p>Los márgenes tienen un comportamiento un tanto peculiar llamado “margin collapsing”.
+                        Cuando dos cajas se tocan en un mismo diseño, la distancia entre ellas es el valor del margen
+                        más grande, y no la suma de ambas.</p>
+                </article>
+            </header>
+        </div>
+        <div class="div3">
+            <header>
+                <h2>
+                    Herencia de estilos
+                </h2>
+            </header>
+            <article>
+                <p>Cuando hablamos de CSS, la herencia es el mecanismo mediante el cual determinadas
+                    propiedades de un elemento “raíz o padre” se transmiten a sus “hijos”. No todas las propiedades CSS
+                    son heredables.</p>
+                <p>Los márgenes no se heredan porque es poco probable que un elemento “hijo” necesite los mismos
+                    márgenes que su “padre”. Cuando se establece el valor de una propiedad CSS
+                    en un elemento, sus elementos descendientes heredan de forma automática el valor de esa propiedad.
+                </p>
+                <p>Como ya hemos comentado, existen algunas propiedades que no son heredables de “padres a hijos” pero
+                    existe un mecanismo mediante el cual es posible indicar que un elemento
+                    herede el valor de una propiedad. Para ello, podemos utilizar los valores: inherit, initial y unset,
+                    que modifican el valor de la propiedad respecto a la
+                    herencia principal:</p>
+            </article>
+        </div>
+        <div class="div4">
+            <header>
+                <h2>
+                    Redes sociales
+                </h2>
+            </header>
+            <article>
+                <header>
+                    <h3>
+                        TWITTER
+                    </h3>
+                </header>
+                <p class="mensaje">El tamaño maximo para la escritura de mensajes en Twitter es de 140 caracteres, ¿o
+                    no?</p>
+                <p class="mensaje">9:37 25/05/2021</p>
+                <footer>
+                    El pajaro
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h3>
+                        FACEBOOK
+                    </h3>
+                </header>
+                <p class="mensaje">Facebook corre peligro por la fuga de datos que se produjo el año pasado</p>
+                <p class="mensaje">10:37 07/12/2022</p>
+                <footer>
+                    El libro
+                </footer>
+            </article>
+        </div>
+        <div class="div5">
+            <header>
+                <h2>
+                    Cierre de guias de estilo
+                </h2>
+            </header>
+            <article>
+                <p>CSS Grid layout es una tecnología para desarrolladores web que contiene funciones de diseño.
+                    El CSS grid se puede utilizar para lograr muchos diseños diferentes y destaca por
+                    permitir dividir una página en áreas o regiones principales, por definir la relación en términos de
+                    tamaño,
+                    posición y capas entre partes de control construidas a partir de HTML.</p>
+                <p>Al igual que ocurre con las tablas el Grid layout permite a un desarrollador colocar contenido en
+                    filas y columnas.
+                    Sin embargo, con CSS grid son posibles muchos más diseños atendiendo a una forma más sencilla de
+                    diseñar el sitio web que haciendo uso de tablas.
+                    Por ejemplo, los elementos secundarios de un contenedor de cuadrícula podrían posicionarse para que
+                    se solapen y
+                    se superpongan de forma similar a los elementos proporcionados en CSS.</p>
+            </article>
+            <footer>
+                Jose Ignacio Gonzalez - CIFP La Laboral
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
