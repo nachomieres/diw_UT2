@@ -1,0 +1,70 @@
+body {
+    background: rgb(171, 205, 239);
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+h1::before {
+    content: "Modulo:  ";
+    color: red;
+}
+h1::after {
+    content: " CSS Grid Layout";
+    color: red;
+}
+nav {
+    border-top: 2px dotted rgb(200,168,180);
+    border-bottom: 2px dotted rgb(200,168,180);
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    background: lightgray;
+    padding: 0.5em;
+    margin-left: 5px;
+}
+li:hover {
+    background: black;
+    color: lightgrey;
+}
+li a:link, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 40%) 18%;
+    grid-template-rows: 100px 1fr 2em;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    padding: 20px;
+} 
+    
+    .div1 { grid-area: 1 / 1 / 2 / 4; }
+    .div2 { grid-area: 2 / 1 / 3 / 2; }
+    .div3 { grid-area: 2 / 2 / 3 / 3; }
+    .div4 { grid-area: 2 / 3 / 3 / 4; }
+    .div5 { grid-area: 3 / 1 / 4 / 4; }
+h2 {
+    font-style: italic;
+}
+h2:first-letter {
+    color: red;
+    font-size: 2em;
+}
+footer {
+    text-align: center;
+    border-top: 2px dotted rgb(228, 124,120);
+    color: rgb(228, 124,120);
+    font-style: italic;
+}
+.mensaje {
+    text-align: right;
+    font-style: italic;
+}
+
+
+    
